@@ -1,0 +1,9 @@
+#main-sibling-1{
+    display: none;
+}
+
+/* Adding to CSSOM */
+
+#main-sibling-2::before {
+    content: "Read this: ";
+  }
