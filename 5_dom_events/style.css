@@ -1,0 +1,31 @@
+.container {
+    border: 1px dashed;
+    height: 6rem;
+    margin: 10px;
+    padding: 2rem;
+}
+.navBar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(76, 0, 255);
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#viewContainer{
+    max-height: 50vh;
+    overflow: auto;
+    padding:0px;
+    position: relative;
+}
+#viewContainer button{
+    position: absolute;
+    right: 10px;
+}
+.spacer{
+    padding-bottom: 100px;
+    background:#ceeeec;
+    margin: 0;
+}
